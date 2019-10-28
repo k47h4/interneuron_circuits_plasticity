@@ -9,8 +9,8 @@
 
 
 2. run run_code.py : 
-this script runs the main model Spikingmodel.py and stores the results in a local folder './Spiking_model/2'
+this script runs the main model Spikingmodel.py and stores the results in a local folder './Spiking_model/1'
 The script runs for approx. 48 minutes, depending on the computer. The results file results.pkl will have a size of 2GB.
 
-3. When 2. is completed, run plot_Spikingmodel.py to plot the Figures from the data in results.pkl into the folder ./Spiking_model/2
+3. When 2. is completed, run plot_Spikingmodel.py to plot the Figures from the data in results.pkl into the folder ./Spiking_model/1
 
