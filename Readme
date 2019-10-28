@@ -1,0 +1,16 @@
+1. System Requirements: >=Python 3.6, numpy, matplotlib, scipy, brian2, brian2tools, sacred
+
+- install brian2: https://brian2.readthedocs.io/en/stable/introduction/install.html
+- install brian2tools https://brian2.readthedocs.io/en/stable/introduction/install.html
+- install sacred from the git repository: https://sacred.readthedocs.io/en/latest/quickstart.html
+	git clone https://github.com/IDSIA/sacred.git
+	cd sacred
+	[sudo] python setup.py install
+
+
+2. run run_code.py : 
+this script runs the main model Spikingmodel.py and stores the results in a local folder './Spiking_model/2'
+The script runs for approx. 48 minutes, depending on the computer. The results file results.pkl will have a size of 2GB.
+
+3. When 2. is completed, run plot_Spikingmodel.py to plot the Figures from the data in results.pkl into the folder ./Spiking_model/2
+
