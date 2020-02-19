@@ -77,10 +77,10 @@ def config():
         'plot': False, 				# enables plotting during the run
         'seed' : 7472, 				# random seed       
 	'nonplasticwarmup_simtime' : 1.4*second,# no plasticity, to measure tuning
-        'warmup_simtime' : 1.4*second,# 42*second, 		# plasticity, no reward
-        'reward_simtime' : 1.4*second,# 24.5*second, 	# plasticity, with reward
-        'noreward_simtime': 1.4*second,# 45*second, 		# plasticity, without reward
-        'noSSTPV_simtime': 1.4*second,# 21*second, 		# plasticity, without reward 
+        'warmup_simtime' : 42*second,# 42*second, 		# plasticity, no reward
+        'reward_simtime' : 24.5*second,# 24.5*second, 	# plasticity, with reward
+        'noreward_simtime': 45*second,# 45*second, 		# plasticity, without reward
+        'noSSTPV_simtime': 21*second,# 21*second, 		# plasticity, without reward 
 	# for Suppl. Figure, we killed SSTPV structure after 45s, therefore the no reward simtime is split up
         'after_simtime' : 1.4*second, 		# no plasticity, to measure tuning
         'timestep' : 0.1*ms,
